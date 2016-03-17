@@ -18,6 +18,13 @@ body {
 h1 {
 	font-family: 'Cardo', serif;
 	font-size: 2.5em;
+	text-shadow: 0px 1px 0px #111;
+}
+
+h2 {
+	font-family: 'Cardo', serif;
+	font-size: 1.2em;
+	text-shadow: 0px 1px 0px #111;
 }
 
 a {
@@ -34,19 +41,23 @@ a.button {
 	color: #111;
 	font-weight:normal;
 	font-size:14px;
+	line-height:1.2em;
 	text-decoration:none;
 	border-radius:5px;
 	padding: 10px 30px 10px;
+	box-shadow: 0px 1px 0px #111;
+}
+
+a.button:hover {
+	background-color: #F60;
+	color: #fff;
 }
 
 hr {
 	border: 0;
 	width: 70%;
 	height: 2px; 
-	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+	background-color: #fff;
 }
 
 
@@ -64,17 +75,25 @@ footer cite {
 	float:left; 
 	margin-right:20px;
 	width:300px;
-	border:2px dashed #ccc;
+	border:2px dashed #F60;
 	padding:10px;
+}
+
+.one h2 {
+	margin-top:0;
 }
 
 .two { 
 	overflow:hidden;
 	margin:10px;
 	width:300px;
-	border:2px dashed #ccc;
-	min-height:170px;
+	border:2px dashed #F60;
+	
 	padding:10px;
+}
+
+.two h2 {
+	margin-top:0;
 }
 
 @media screen and (max-width: 400px) {
