@@ -80,6 +80,14 @@ footer cite {
 	margin: 0 auto;
 }
 
+.img-review {
+    display: block;
+    width: 100% \9;
+    max-width: 70%;
+    height: auto;
+	margin: 0 auto;
+}
+
 fieldset {
 	border:0;
 	margin:0;
