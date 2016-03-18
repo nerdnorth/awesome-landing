@@ -72,6 +72,23 @@ footer cite {
 	font-size: 20px;
 }
 
+.nav {
+	font-size: 14px;
+	text-align: right;
+	line-height:1.2em;
+	padding: 20px 0;
+}
+
+.nav a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: #F90;
+	text-decoration: underline;
+}
+
 .img-responsive {
     display: block;
     width: 100% \9;
