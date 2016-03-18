@@ -3,7 +3,7 @@
 
 body {
 	background: #e10d1f;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight:700;
 	font-size: 20px;
 	line-height: 1.4em;
@@ -16,13 +16,11 @@ body {
 }
 
 h1 {
-	font-family: 'IM Fell English', serif;
 	font-size: 2.5em;
 	text-shadow: 0px 1px 0px #111;
 }
 
 h2 {
-	font-family: 'IM Fell English', serif;
 	font-size: 1.2em;
 	text-shadow: 0px 1px 0px #111;
 }
