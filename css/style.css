@@ -16,23 +16,23 @@ body {
 }
 
 h1 {
-	font-family: 'Cardo', serif;
+	font-family: 'IM Fell English', serif;
 	font-size: 2.5em;
 	text-shadow: 0px 1px 0px #111;
 }
 
 h2 {
-	font-family: 'Cardo', serif;
+	font-family: 'IM Fell English', serif;
 	font-size: 1.2em;
 	text-shadow: 0px 1px 0px #111;
 }
 
 a {
-	color:#C00;
+	color: #F90;
 } 
 
 a:hover {
-	color: #900;
+	color: #3CF;
 }
 
 
@@ -58,6 +58,7 @@ hr {
 	width: 70%;
 	height: 2px; 
 	background-color: #fff;
+	margin: 50px auto;
 }
 
 
@@ -69,6 +70,20 @@ blockquote {
 footer cite {
 	font-style:normal;
 	font-size: 20px;
+}
+
+.img-responsive {
+    display: block;
+    width: 100% \9;
+    max-width: 50%;
+    height: auto;
+	margin: 0 auto;
+}
+
+fieldset {
+	border:0;
+	margin:0;
+	padding:0;
 }
 
 input[type="submit"] {
@@ -85,15 +100,14 @@ input[type="submit"] {
 	box-shadow: 0px 1px 0px #111;
 }
 
-input[type="text"] {
+input[type="text"], input[type="email"] {
 	font-size: 16px;
-	border: 2px solid #fff;
 	display: block;
 	padding: 10px 30px 10px;
-	width: 100%;
+	border: 2px solid #fff;
+	border-radius:5px;
 	outline: none;
 	margin: 1em 0;
-	border-radius:5px;
 	box-shadow: 0px 1px 0px #111;
 }
 
@@ -102,7 +116,7 @@ input[type="text"] {
 	margin-right:20px;
 	width:300px;
 	border:2px dashed #F60;
-	padding:10px;
+	padding:15px;
 }
 
 .one h2 {
@@ -114,8 +128,7 @@ input[type="text"] {
 	margin:10px;
 	width:300px;
 	border:2px dashed #F60;
-	
-	padding:10px;
+	padding:15px;
 }
 
 .two h2 {
@@ -132,4 +145,8 @@ input[type="text"] {
 .two {
 	margin:0;
 	width:auto;
+}
+h1 {
+	font-size:42px;
+}
 }
