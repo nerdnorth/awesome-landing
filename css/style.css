@@ -201,4 +201,7 @@ h1 {
     height: auto;
 	margin: 0 auto;
 }
+.smiley {
+  display:none;
+}
 }
