@@ -8,6 +8,7 @@ body {
 	font-size: 20px;
 	line-height: 1.4em;
 	color: #fff;
+	transition-duration: .5s;
 }
 
 body.clicked {
