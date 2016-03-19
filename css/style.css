@@ -13,6 +13,7 @@ body {
 body.clicked {
   background: #7f1d26;
 }
+
 .smiley {
   position: fixed;
   top: 1rem;
@@ -21,6 +22,11 @@ body.clicked {
   height: 1rem;
   line-height: 1rem;
   font-size: 1rem;
+  transition-duration: .5s;
+}
+
+body.clicked .smiley {
+  transform: rotate(360deg) scale(2);
 }
 
 .main {
