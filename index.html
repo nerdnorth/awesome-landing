@@ -43,11 +43,6 @@ analytics.page()
 <body>
 <div class="main">
 	<div class="smiley">😎</div>
-	<script>
-    jQuery('.smiley').on('click', function() {
-    jQuery('body').toggleClass('clicked');
-    });
-    </script>
 	<article>
     <img src="img/megamakerlogo.png" alt="MegaMaker - the podcast for makers, DIYers, crafters, and creatives" class="img-responsive">
     <h2>Season 2: coming April 1st</h2>
@@ -84,6 +79,11 @@ analytics.page()
   <div class="nav">
   <a href="http://megamaker.co/secret">Secret Society</a> | <a href="http://live.megamaker.co">Live stream</a> | <a href="http://store.megamaker.co">Store</a> |<a href="https://twitter.com/mijustin"> @mijustin</a> | <a href="https://medium.com/mega-maker">On Medium</a></div>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script>
+    jQuery('.smiley').on('click', function() {
+    jQuery('body').toggleClass('clicked');
+    });
+    </script>
 </body>
 </html>
