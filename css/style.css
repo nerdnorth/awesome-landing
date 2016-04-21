@@ -2,12 +2,12 @@
 /* CSS Document */
 
 body {
-	background: #111;
-	font-family: 'Roboto', sans-serif;
+	background: #FFF;
+	font-family: 'Libre Baskerville', serif;
 	font-weight:400;
 	font-size: 20px;
 	line-height: 1.4em;
-	color: #fff;
+	color: #111;
 	transition-duration: .5s;
 }
 
@@ -17,23 +17,29 @@ body {
 }
 
 h1 {
+	font-family: 'Dosis', sans-serif;
 	font-size: 2.5em;
-	font-weight: 700;
-	text-shadow: 0px 1px 0px #111;
+	font-weight: 300;
 }
 
 h2 {
-	font-size: 1.2em;
-	font-weight: 700;
-	text-shadow: 0px 1px 0px #111;
+	font-family: 'Dosis', sans-serif;
+	font-size: 2em;
+	font-weight: 300;
+}
+
+h3 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
 }
 
 a {
-	color: #F90;
+	color: #509964;
 } 
 
 a:hover {
-	color: #3CF;
+	color: #30893f;
 }
 
 
@@ -81,19 +87,19 @@ footer cite {
 }
 
 .nav a {
-	color: #FFF;
+	color: #111;
 	text-decoration: none;
 }
 
 .nav a:hover {
-	color: #F90;
+	color: #30893f;
 	text-decoration: underline;
 }
 
 .img-responsive {
     display: block;
     width: 100% \9;
-    max-width: 30%;
+    max-width: 50%;
     height: auto;
 	margin: 0 auto;
 }
@@ -129,6 +135,7 @@ input[type="submit"] {
 input[type="text"], input[type="email"] {
 	font-size: 16px;
 	display: block;
+	width: auto;
 	padding: 10px 30px 10px;
 	border: 2px solid #fff;
 	border-radius:5px;
@@ -137,23 +144,33 @@ input[type="text"], input[type="email"] {
 	box-shadow: 0px 1px 0px #111;
 }
 
-.mob {
-	border:2px dashed #F60;
+.cta {
+	border:2px dashed #30893f;
 	padding:15px;
 }
 
-.mob h2 {
+.cta h2 {
 	margin-top:0;
 }
 
-.mob img {
+.who img {
 	float: right;
 	width: 200px;
 	border-radius: 100%;
     margin-left: 10px;
 }
 
+.mailchimp {
+	background-color:#489663;
+	font-family: 'Dosis', sans-serif;
+	color:#fff;
+	padding:15px;
+}
 
+.mailchimp h3 {
+	padding-top:0;
+	margin-top:0;
+}
 
 @media screen and (max-width: 400px) {
 .mob { 
