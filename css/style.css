@@ -2,32 +2,13 @@
 /* CSS Document */
 
 body {
-	background: #e10d1f;
+	background: #111;
 	font-family: 'Roboto', sans-serif;
 	font-weight:400;
 	font-size: 20px;
 	line-height: 1.4em;
 	color: #fff;
 	transition-duration: .5s;
-}
-
-body.clicked {
-  background: #7f1d26;
-}
-
-.smiley {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  width: 1rem;
-  height: 1rem;
-  line-height: 1rem;
-  font-size: 1rem;
-  transition-duration: .5s;
-}
-
-body.clicked .smiley {
-  transform: rotate(360deg) scale(2);
 }
 
 .main {
@@ -57,8 +38,8 @@ a:hover {
 
 
 a.button {
-	background-color: #fff;
-	color: #111;
+	background-color: #F60;
+	color: #fff;
 	font-weight:normal;
 	font-size:14px;
 	line-height:1.2em;
@@ -69,8 +50,8 @@ a.button {
 }
 
 a.button:hover {
-	background-color: #F60;
-	color: #fff;
+	background-color: #fff;
+	color: #111;
 }
 
 hr {
@@ -112,7 +93,7 @@ footer cite {
 .img-responsive {
     display: block;
     width: 100% \9;
-    max-width: 50%;
+    max-width: 30%;
     height: auto;
 	margin: 0 auto;
 }
@@ -156,41 +137,41 @@ input[type="text"], input[type="email"] {
 	box-shadow: 0px 1px 0px #111;
 }
 
-.one {
-	float:left; 
-	margin-right:20px;
-	width:300px;
+.mob {
 	border:2px dashed #F60;
 	padding:15px;
 }
 
-.one h2 {
+.mob h2 {
 	margin-top:0;
 }
 
-.two { 
-	overflow:hidden;
-	margin:10px;
-	width:300px;
-	border:2px dashed #F60;
-	padding:15px;
+.mob img {
+	float: right;
+	width: 200px;
+	border-radius: 100%;
+    margin-left: 10px;
 }
 
-.two h2 {
-	margin-top:0;
-}
+
 
 @media screen and (max-width: 400px) {
-.one { 
+.mob { 
 	float: none;
 	margin-right:0;
 	margin-bottom:20px;
 	width:auto;
   }
-.two {
-	margin:0;
-	width:auto;
+  
+.mob img {
+	float: none;
+    max-width: 80%;
+	width:100%;
+    height: auto;
+	margin: 0 auto;
+	padding-bottom:20px;
 }
+
 h1 {
 	font-size:42px;
 }
@@ -200,8 +181,5 @@ h1 {
     max-width: 100%;
     height: auto;
 	margin: 0 auto;
-}
-.smiley {
-  display:none;
 }
 }
