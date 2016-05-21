@@ -2,13 +2,12 @@
 /* CSS Document */
 
 body {
-	background: #FFF;
-	font-family: 'Libre Baskerville', serif;
-	font-weight:300;
+	background: #fff;
+	font-family: 'PT Serif', serif;
+	font-weight:400;
 	font-size: 20px;
 	line-height: 1.4em;
-	color: #111;
-	transition-duration: .5s;
+	color: #1b1b1b;
 }
 
 .main {
@@ -17,35 +16,36 @@ body {
 }
 
 h1 {
-	font-family: 'Dosis', sans-serif;
+	font-weight:700;
+	color: #111111;
 	font-size: 2.5em;
-	font-weight: 300;
 }
 
 h2 {
-	font-family: 'Dosis', sans-serif;
-	font-size: 2em;
-	font-weight: 300;
+	font-weight:400;
+	font-size: 1.5em;
 }
 
-h3 {
-	font-family: 'Dosis', sans-serif;
-	font-size: 1.5em;
-	font-weight: 300;
+.img-responsive {
+    display: block;
+    width: 100% \9;
+    max-width: 100%;
+    height: auto;
+	margin: 0 auto;
 }
 
 a {
-	color: #509964;
+	color: #F90;
 } 
 
 a:hover {
-	color: #30893f;
+	color: #3CF;
 }
 
 
 a.button {
 	background-color: #F60;
-	color: #fff;
+	color: #111;
 	font-weight:normal;
 	font-size:14px;
 	line-height:1.2em;
@@ -56,7 +56,7 @@ a.button {
 }
 
 a.button:hover {
-	background-color: #fff;
+	background-color: #FC0;
 	color: #111;
 }
 
@@ -64,7 +64,7 @@ hr {
 	border: 0;
 	width: 70%;
 	height: 2px; 
-	background-color: #fff;
+	background-color: #ccc;
 	margin-top: 50px;
 }
 
@@ -77,39 +77,6 @@ blockquote {
 footer cite {
 	font-style:normal;
 	font-size: 20px;
-}
-
-.nav {
-	font-size: 16px;
-	text-align: center;
-	line-height:1.2em;
-	padding: 20px 0;
-}
-
-.nav a {
-	color: #111;
-	text-decoration: none;
-}
-
-.nav a:hover {
-	color: #30893f;
-	text-decoration: underline;
-}
-
-.img-responsive {
-    display: block;
-    width: 100% \9;
-    max-width: 50%;
-    height: auto;
-	margin: 0 auto;
-}
-
-.img-review {
-    display: block;
-    width: 100% \9;
-    max-width: 60%;
-    height: auto;
-	margin: 0 auto;
 }
 
 fieldset {
@@ -135,7 +102,6 @@ input[type="submit"] {
 input[type="text"], input[type="email"] {
 	font-size: 16px;
 	display: block;
-	width: auto;
 	padding: 10px 30px 10px;
 	border: 2px solid #fff;
 	border-radius:5px;
@@ -145,8 +111,10 @@ input[type="text"], input[type="email"] {
 }
 
 .cta {
-	border:2px dashed #30893f;
+	border:2px dashed #F90;
+	background-color:#FFC;
 	padding:15px;
+	margin: 2em 0;
 }
 
 .cta h2 {
@@ -160,27 +128,15 @@ input[type="text"], input[type="email"] {
     margin-left: 10px;
 }
 
-.mailchimp {
-	background-color:#489663;
-	font-family: 'Dosis', sans-serif;
-	color:#fff;
-	padding:15px;
-}
-
-.mailchimp h3 {
-	padding-top:0;
-	margin-top:0;
-}
-
 @media screen and (max-width: 400px) {
-.mob { 
+.who { 
 	float: none;
 	margin-right:0;
 	margin-bottom:20px;
 	width:auto;
   }
   
-.mob img {
+.who img {
 	float: none;
     max-width: 80%;
 	width:100%;
@@ -188,9 +144,14 @@ input[type="text"], input[type="email"] {
 	margin: 0 auto;
 	padding-bottom:20px;
 }
-
 h1 {
-	font-size:42px;
+	font-size:18px;
+}
+h2 {
+	font-size:16px;
+}
+body {
+	font-size:14px;
 }
 .img-review {
     display: block;
